@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <h2>Laptop Record App</h2>
     <div class="d-flex justify-content-between" style="width: 200px;">
-      <button (click)="clickAddLaptop()" class="btn btn-outline-primary mr-3" type="button"
+      <button (click)="clickAddLaptop()" class="btn btn-outline-success mr-3" type="button"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal">Add Laptop
       </button>
@@ -26,12 +26,12 @@
     <!-- The slideshow/carousel -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="../../assets/1.jpg" alt="Los Angeles" class="d-block"
-             style="width:100%; height: 91vh;">
+        <img src="../../assets/1.png" alt="Los Angeles" class="d-block"
+             style="width:100%; height: 60vh;">
       </div>
       <div class="carousel-item">
-        <img src="../../assets/2.jpg" alt="Chicago" class="d-block"
-             style="width:100%; height: 91vh;">
+        <img src="../../assets/2.png" alt="Chicago" class="d-block"
+             style="width:100%; height: 60vh;">
       </div>
     </div>
 
@@ -46,14 +46,14 @@
 </div>
 
 
-<table class="table mt-4 text-white" style="width: 100%;">
+<!-- <table class="table mt-4 text-white"  style="width: 100%;">
   <thead>
   <tr style="border: 2rem;">
     <th scope="col">Laptop Model</th>
     <th scope="col">Processor</th>
     <th scope="col">RAM</th>
-    <th scope="col">Display</th>
-    <th scope="col">Price</th>
+    <th scope="col">Display(Inch)</th>
+    <th scope="col">Price($)</th>
   </tr>
   </thead>
   <tbody>
@@ -73,7 +73,41 @@
     </td>
   </tr>
   </tbody>
-</table>
+</table> -->
+
+<div class="table-responsive">
+  <table class="table mt-4 text-white">
+    <thead>
+      <tr>
+        <th style="width: 20%;">Laptop Model</th>
+        <th style="width: 20%;">Processor</th>
+        <th style="width: 15%;">RAM</th>
+        <th style="width: 15%;">Display (Inch)</th>
+        <th style="width: 15%;">Price ($)</th>
+        <th style="width: 15%;"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of allLaptopData">
+        <td style="width: 20%;">{{ data.Model }}</td>
+        <td style="width: 20%;">{{ data.Processor }}</td>
+        <td style="width: 15%;">{{ data.Ram }}</td>
+        <td style="width: 15%;">{{ data.Display }}</td>
+        <td style="width: 15%;">{{ data.Price }}</td>
+        <td style="width: 15%;" class="text-end">
+          <div class="d-flex justify-content-end">
+            <button class="btn btn-outline-success me-2 btn-lg" type="button" data-bs-toggle="modal"
+              data-bs-target="#exampleModal" (click)="onEditLaptop(data)">Edit</button>
+            <button class="btn btn-outline-danger btn-lg" type="button" (click)="deleteLaptop(data.id)">Delete</button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+ 
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

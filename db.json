@@ -3,6 +3,7 @@
     {
       "id": 1,
       "Model": "Dell XPS 13",
+      "Processor": "Intel Core i5",
       "Ram": "10GB",
       "Display": "13.3",
       "Price": 1990
@@ -22,22 +23,6 @@
       "Ram": "16GB",
       "Display": "14",
       "Price": 899
-    },
-    {
-      "id": 4,
-      "Model": "asus K55",
-      "Processor": "core i7",
-      "Ram": "8",
-      "Display": 24,
-      "Price": 3000
-    },
-    {
-      "id": 5,
-      "Model": "hp",
-      "Processor": "core i7",
-      "Ram": "9",
-      "Display": 25,
-      "Price": 4470
     }
   ],
   "signup": [
