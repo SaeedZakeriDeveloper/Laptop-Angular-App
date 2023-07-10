@@ -1,0 +1,66 @@
+{
+  "laptob": [
+    {
+      "id": 1,
+      "Model": "Dell XPS 13",
+      "Ram": "10GB",
+      "Display": "13.3",
+      "Price": 1990
+    },
+    {
+      "id": 2,
+      "Model": "Pavilion 15",
+      "Processor": "Intel Core i5",
+      "Ram": "8GB",
+      "Display": "15.6",
+      "Price": 699
+    },
+    {
+      "id": 3,
+      "Model": "Inspiron 14",
+      "Processor": "AMD Ryzen 7",
+      "Ram": "16GB",
+      "Display": "14",
+      "Price": 899
+    },
+    {
+      "id": 4,
+      "Model": "asus K55",
+      "Processor": "core i7",
+      "Ram": "8",
+      "Display": 24,
+      "Price": 3000
+    },
+    {
+      "id": 5,
+      "Model": "hp",
+      "Processor": "core i7",
+      "Ram": "9",
+      "Display": 25,
+      "Price": 4470
+    }
+  ],
+  "signup": [
+    {
+      "name": "saeed",
+      "email": "saeed.zakeri1364@gmail.com",
+      "mobile": 6476767645,
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "name": "saeed",
+      "email": "saeed.zakeri1364@gmail.com",
+      "mobile": 6476767645,
+      "password": "12345",
+      "id": 3
+    }
+  ]
+}
