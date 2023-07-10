@@ -1,3 +1,5 @@
+![Screenshot (9)](https://github.com/saeedzakeri1364/Laptop/assets/103548124/3348ef23-65fe-439e-8a61-190f9767a808)
+
 # LaptopApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.9.
