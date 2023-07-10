@@ -8,7 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## CLone the Repository
 ```
-/////////////////////////////////////////////////
+/////////////////////////////////////////////////https://github.com/saeedzakeri1364/Laptop
 ```
 
 ## Install node modules
