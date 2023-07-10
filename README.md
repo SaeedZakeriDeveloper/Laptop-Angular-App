@@ -1,4 +1,6 @@
-![Screenshot (9)](https://github.com/saeedzakeri1364/Laptop/assets/103548124/3348ef23-65fe-439e-8a61-190f9767a808)
+![Screenshot (7)](https://github.com/saeedzakeri1364/Laptop/assets/103548124/dc1c24eb-4830-4938-8f6f-3d7990daa39b)
+![Screenshot (8)](https://github.com/saeedzakeri1364/Laptop/assets/103548124/896b0636-3b31-4b58-9881-d52bafd84e79)
+![Screenshot (9)](https://github.com/saeedzakeri1364/Laptop/assets/103548124/85de9704-1e94-4a33-af20-bde037c4dec6)
 
 # LaptopApp
 
