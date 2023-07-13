@@ -98,7 +98,6 @@ export class LaptopDashComponent implements OnInit {
 
     this.api.updateLaptop(this.laptopModelObj.id, this.laptopModelObj).subscribe((res: any) => {
       alert("Laptop Updated Successfully");
-      this.formValue.reset();
       let ref = document.getElementById('close');
       ref?.click();
       this.getAllData();
