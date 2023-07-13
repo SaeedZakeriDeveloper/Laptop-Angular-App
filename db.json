@@ -23,6 +23,22 @@
       "Ram": "16GB",
       "Display": "14",
       "Price": 899
+    },
+    {
+      "id": 4,
+      "Model": "aaaaa",
+      "Processor": "7",
+      "Ram": "8",
+      "Display": 25,
+      "Price": 9900007
+    },
+    {
+      "id": 5,
+      "Model": "bbb",
+      "Processor": "2",
+      "Ram": "3",
+      "Display": 23,
+      "Price": 230000007
     }
   ],
   "signup": [
@@ -34,18 +50,11 @@
       "id": 1
     },
     {
-      "name": "",
-      "email": "",
-      "mobile": "",
-      "password": "",
-      "id": 2
-    },
-    {
-      "name": "saeed",
-      "email": "saeed.zakeri1364@gmail.com",
-      "mobile": 6476767645,
-      "password": "12345",
-      "id": 3
+      "name": "fatemeh",
+      "email": "paydar9795@gmail.com",
+      "mobile": 9876543210,
+      "password": "1234567",
+      "id": 4
     }
   ]
 }
